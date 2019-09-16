@@ -1,0 +1,40 @@
+.container {
+    height: 500px;
+    width: 1350px;
+    display: inline-block;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+
+
+.score {
+    margin: 0px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+#a {
+    background-color: rgb(149, 245, 59);
+}
+#b {
+    background-color:rgb(238, 78, 166);
+}
+#c {
+    background-color: rgb(237, 240, 85);
+}
+#d {
+    background-color: rgb(136, 45, 240);
+}
+
+button {
+    margin: 10px;
+}
