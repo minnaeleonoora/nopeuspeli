@@ -1,21 +1,15 @@
-import React, {Component} from './node_modules/react';
+import React from 'react';
 import './GameOver.css';
 
-class GameOver extends Component {
-
-render(){
+const GameOver = () => {
     return (
     <div id="result">
-        <div className="gameover">
-            <div id="gameoverbox">
-                <p>Game Over!</p>
+        <div className="gameoverbox">
+            <p id="gameover">Game Over! Your final score was: </p>
                 <button>Close</button>
             </div>
-        
         </div>
-    </div>
-    )
-    }
+    );   
 }
 
 
