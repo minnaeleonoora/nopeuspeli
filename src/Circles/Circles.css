@@ -1,15 +1,15 @@
 .container {
-    height: 500px;
+    height: 400px;
     width: 1350px;
     display: inline-block;
     align-items: center;
     padding: 50px 0 0 0;
 }
 
-
-
 .score {
     margin: 0px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 
 .circle {
@@ -19,22 +19,28 @@
     text-align: center;
     display: inline-block;
     margin: 10px;
-    
+    box-shadow: black;
+    background: white;    
 }
 
 #a {
-    background-color: rgb(149, 245, 59);
+    background-color:#A2FFBA;
 }
 #b {
-    background-color:rgb(238, 78, 166);
+    background-color:#FF57FF;
 }
 #c {
-    background-color: rgb(237, 240, 85);
+    background-color: #EBE98A;
 }
 #d {
-    background-color: rgb(136, 45, 240);
+    background-color: #61EBE5;
 }
 
 button {
-    margin: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(252, 250, 247);
+    font-family: 'Turret Road', cursive;
+    font-size: 20px;
 }
